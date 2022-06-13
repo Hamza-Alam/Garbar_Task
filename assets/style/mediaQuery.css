@@ -1,0 +1,518 @@
+/******** Media Query - 1600 px - Start *******/
+@media only screen and (max-width: 1600px) {
+    #consectetuerSection .title br{
+        display: none;
+    }
+    #sucessStoryUser .succesStoryDiv .commonCard{
+        padding: 30px 20px;
+    }
+    #leadSEO .rightLeadBox .multiImg .askQuestion {
+        left: -30%;
+    }
+
+    #leadSEO .rightLeadBox {
+        right: -28%;
+    }
+
+    #locationSection .locationSlider {
+        max-width: 100%;
+    }
+
+    #dolorSection .listDiv {
+        max-width: 65%;
+    }
+
+    .container-fluid {
+        max-width: 1200px;
+    }
+
+    #mainBanner .bannerLeftSide h3 {
+        font-size: 50px;
+    }
+
+    .commonBtn {
+        padding: 10px 29px;
+    }
+
+    #dolorSit .multiSteps,
+    #micdolanceDiv .leftSideBox {
+        max-width: 80%;
+    }
+    #footer .leftBox {
+        padding-right: 125px;
+    }
+    
+}
+
+/******** Media Query - 1600 px - End *******/
+/******** Media Query - 1200 px - Start *******/
+@media only screen and (max-width: 1200px) {
+    #footer .copyRight ul li {
+        padding-left: 40px;
+    }
+    #dolorSit .multiSteps,
+    #micdolanceDiv .leftSideBox {
+        max-width: 100%;
+    }
+
+    #sitAmet .sitAmetBox img {
+        width: 180px;
+        height: 180px;
+    }
+
+    #locationSection .locationDiv {
+        padding: 30px 0px;
+    }
+
+    #locationSection .locationSlider.slick-initialized.slick-slider img {
+        width: 250px;
+    }
+
+    .locationDiv.slick-slide.slick-current.slick-active+.locationDiv.slick-slide.slick-active img {
+        width: 300px !important;
+    }
+
+    .container-fluid {
+        padding: 0px 50px;
+    }
+
+    #mainBanner .bannerLeftSide h3,
+    .title,
+    #locationSection h1,
+    #leadSEO .leftLeadBox h1 {
+        font-size: 40px;
+    }
+
+    .commonBtn {
+        font-size: 20px;
+    }
+
+    #mainBanner .bannerLeftSide p {
+        font-size: 20px;
+    }
+
+    #dolorSection .listDiv ul li {
+        font-size: 20px;
+        line-height: 45px;
+    }
+}
+
+/******** Media Query - 1200 px - End *******/
+/******** Media Query - 992 px - Start *******/
+@media only screen and (max-width: 992px) {
+    #sitAmet .sitAmetBox h4 {
+        font-size: 20px;
+    }
+
+    #locationSection .locationDiv {
+        padding: 15px 0px;
+    }
+
+    #locationSection .locationSlider.slick-initialized.slick-slider img {
+        width: 170px;
+    }
+
+    .locationDiv.slick-slide.slick-current.slick-active+.locationDiv.slick-slide.slick-active img {
+        width: 210px !important;
+    }
+
+    #dolorSection .listDiv {
+        max-width: 80%;
+    }
+
+    #mainBanner .bannerLeftSide h3 {
+        font-size: 32px;
+    }
+
+    #mainBanner .bannerLeftSide .changeText {
+        font-size: 34px;
+    }
+
+    #header .navbar-nav li {
+        margin-left: 10px;
+    }
+
+    #header .navbar-nav li>a {
+        font-size: 12px;
+    }
+
+    #header .navbar-nav li.contactUs {
+        padding: 0px 30px;
+    }
+
+    .commonBtn {
+        font-size: 18px;
+    }
+
+    #mainBanner .bannerLeftSide p {
+        font-size: 18px;
+    }
+
+    #leadSEO .rightLeadBox {
+        display: none;
+    }
+
+    #leadSEO .leftLeadBox h1 {
+        text-align: center;
+    }
+
+    #sitAmet .sitAmetBox p {
+        font-size: 16px;
+    }
+    #sucessStoryUser .succesStoryDiv{
+        display: block;
+    }
+    #sucessStoryUser .succesStoryDiv .commonCard{
+        width: 100%;
+    }
+    #grantySection .infoDiv{
+        max-width: 100%;
+    }
+}
+
+/******** Media Query - 992 px - End *******/
+/******** Media Query - 768 px - Start *******/
+@media only screen and (max-width: 766px) {
+    #micdolanceDiv .commonBtn,
+    #grantySection .commonBtn,
+    #consectetuerSection .commonBtn{
+        padding: 10px 41px;
+    }
+    #footer .copyRight ul li a{
+        font-size: 14px;
+        line-height: 19px;
+        font-family: 'Prompt', sans-serif;
+    }
+    #footer .copyRight ul li:nth-child(1) a,
+    #footer .copyRight ul li:nth-child(2) a{
+        font-weight: 100;
+    }
+    #footer .copyRight ul li:nth-child(3) a,
+    #footer .copyRight ul li:nth-child(4) a{
+        font-weight: 400 !important;
+    }
+    #footer{
+        background-image: none;
+        background-color: #08083D;
+        padding: 18px  0px;
+    }
+    #footer .copyRight{
+        margin: 0px;
+    }
+    #footer .copyRight ul{
+        display: block;
+        text-align: center;
+    }
+    #footer .rightBox,
+    #footer .leftBox{
+        display: none;
+    }
+    #consectetuerSection .rightBox p{
+        margin-bottom: 11px;
+    }
+    #grantySection img{
+        margin: 0px;
+        width: 190px;
+    }
+    #grantySection{
+        background: transparent linear-gradient(152deg, #6184D8 0%, #08083D 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+        padding-bottom: 45px !important;
+    }
+    #sucessStoryUser .succesStoryDiv .commonCard .cardTop p{
+        margin-top: 15px;
+    }
+    #sucessStoryUser .succesStoryDiv .commonCard {
+        padding: 19px 34px 30px;
+    }
+    #micdolanceDiv{
+        padding-bottom: 70px !important;
+    }
+    #sucessStory{
+        background-image: none;
+        background-color: #08083D;
+        opacity: 0.6;
+    }
+    #dolorSit .multiSteps .arrowDiv i{
+        display: grid;
+    }
+    #dolorSit .stepDivBelow {
+        box-shadow: none;
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    #dolorSit .stepDivBelow .secondDiv{
+        border-radius: 10px;
+    }
+    #dolorSit .stepDivBelow h1,
+    #micdolanceDiv .leftSideBox{
+        text-align: center;
+    }
+
+    #dolorSit {
+        background: transparent linear-gradient(174deg, #6184D8 0%, #08083D 100%) 0% 0% no-repeat padding-box;
+        opacity: 0.9;
+    }
+
+    #dolorSit .multiSteps .arrowDiv {
+        margin: 32px 0px 0px;
+    }
+
+    #dolorSit .multiSteps .commonSteps h4,
+    #sucessStoryUser .succesStoryDiv .commonCard .cardBottom h4 {
+        font-size: 20px;
+    }
+
+    #dolorSit .multiSteps .commonSteps h1 {
+        font-size: 28px;
+    }
+
+    #dolorSit .multiSteps .commonSteps .iconDiv {
+        width: 57px;
+        height: 57px;
+        background-color: transparent;
+        margin-bottom: 15px;
+    }
+
+    #dolorSit .multiSteps .arrowDiv img {
+        margin: auto;
+    }
+
+    #dolorSit .multiSteps .commonSteps {
+        flex-direction: column-reverse;
+    }
+
+    #dolorSit .multiSteps .commonSteps .detailsDiv {
+        width: 100%;
+    }
+
+    #sitAmet {
+        padding: 40px 0px;
+    }
+
+    #dolorSit .multiSteps .commonSteps p,
+    #micdolanceDiv .leftSideBox .descriptionDiv p,
+    #sucessStoryUser .succesStoryDiv .commonCard .cardBottom p,
+    #grantySection .infoDiv p {
+        font-size: 16px;
+    }
+
+    #locationSection h1,
+    #leadSEO .leftLeadBox h1,
+    #micdolanceDiv .leftSideBox h1 {
+        line-height: 40px;
+    }
+
+    #locationSection .locationDiv p,
+    #sucessStory p,
+    #consectetuerSection .rightBox p {
+        font-size: 18px;
+    }
+
+    #leadSEO .leftLeadBox .descriptionText p {
+        font-size: 16px;
+        margin-bottom: 25px;
+        line-height: 22.4px;
+    }
+
+    #locationSection .locationSlider.slick-initialized.slick-slider img {
+        width: 256px !important;
+        height: 179px;
+    }
+
+    .mobileHide,
+    #dolorSit .stepDivBelow p br,
+    #consectetuerSection .leftBox {
+        display: none !important;
+    }
+
+    #dolorSit .stepDivBelow p{
+        font-size: 16px;
+        padding: 0px 30px;
+        text-align: left;
+    }
+    #dolorSection .listDiv ul li:before {
+        padding-right: 17px;
+    }
+    #footer .copyRight .desktopHide{
+        display: block !important;
+    }
+
+    #dolorSection .listDiv ul li {
+        font-size: 18px;
+        display: flex;
+        color: #fff;
+        font-weight: 400;
+        line-height: 25.2px;
+        padding-bottom: 32px;
+    }
+
+    #dolorSection .listDiv {
+        max-width: 100%;
+        margin-top: 28px;
+    }
+
+    #dolorSection .title br,
+    #leadSEO .leftLeadBox h1 br,
+    #locationSection h1 br,
+    #sitAmet .title br,
+    #micdolanceDiv .leftSideBox h1 br,
+    #grantySection h1 br,
+    #consectetuerSection .rightBox h1 br,
+    #dolorSit h1 br {
+        display: block;
+    }
+
+    #dolorSection {
+        background-image: url("../img/listImg.png");
+        padding: 52px 0px;
+    }
+
+    #dolorSection .title {
+        color: #fff;
+        font-size: 32px;
+    }
+
+    #header .container-fluid {
+        padding: 0px;
+    }
+
+    #mainBanner .bannerRightSide img {
+        padding-top: 55px;
+        margin: auto;
+    }
+
+    .desktopHide,
+    #dolorSit .stepDivBelow br {
+        display: block;
+    }
+
+    .mobileHide {
+        display: none;
+    }
+
+    #mainBanner {
+        background-image: url("../img/mobileBannerBg.png");
+        padding: 140px 0px 50px;
+    }
+
+    #header {
+        width: 100%;
+        position: absolute;
+        z-index: 99;
+        background-color: transparent;
+        border: none;
+    }
+
+    br {
+        display: none;
+    }
+
+    #header .navbar-toggler {
+        border: none;
+    }
+
+    #header .navbar {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #header .navbar button {
+        float: left;
+        padding: 0px 30px;
+    }
+
+    #header .navbar-brand {
+        position: relative;
+        right: 35%;
+    }
+
+    #header .navbar-nav li.contactUs,
+    #consectetuerSection .rightBox,
+    #mainBanner .bannerLeftSide {
+        text-align: center;
+    }
+
+    #header .collapse {
+        background: #08093d;
+        padding: 20px;
+    }
+
+    .slick-prev {
+        left: 0px;
+    }
+
+    .slick-next {
+        right: 0px
+    }
+
+    #locationSection h1,
+    #mainBanner .bannerLeftSide h3,
+    .title,
+    #locationSection h1,
+    #leadSEO .leftLeadBox h1,
+    #dolorSit .stepDivBelow h1 {
+        font-size: 30px;
+    }
+
+    #locationSection .container-fluid {
+        padding: 0px 16px;
+    }
+
+    #locationSection p {
+        margin-top: 10px;
+    }
+
+    #locationSection .locationSlider {
+        margin-top: 20px;
+    }
+
+    #locationSection,
+    #leadSEO,
+    #micdolanceDiv,
+    #sucessStory,
+    #grantySection,
+    #consectetuerSection {
+        padding: 32px 0px;
+    }
+
+    #leadSEO .container-fluid {
+        padding: 0px 20px;
+    }
+    #sucessStoryUser .succesStoryDiv .commonCard .cardTop p{
+        font-size: 14px;
+    }
+    #grantySection .infoDiv{
+        text-align: left;
+    }
+    #sitAmet .sitAmetBox img{
+        margin: auto;
+    }
+}
+
+/******** Media Query - 768 px - End *******/
+/******** Media Query - 568 px - Start *******/
+@media only screen and (max-width: 568px) {
+.stepDivBelow{
+    height: 274px;
+}
+    .slick-prev,
+    .slick-next {
+        top: 40%;
+    }
+
+    #header .navbar-brand {
+        position: relative;
+        right: 32%;
+    }
+
+    #header .navbar-brand {
+        font-size: 20px;
+    }
+
+    .container-fluid {
+        padding: 0px 30px;
+    }
+}
+
+/******** Media Query - 568 px - End *******/

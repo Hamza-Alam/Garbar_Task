@@ -1,0 +1,712 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+li,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: GiloryLight;
+    src: url("../fonts/Gilroy-Light.otf");
+}
+
+@font-face {
+    font-family: GiloryBold;
+    src: url("../fonts/Gilroy-ExtraBold.otf");
+}
+
+/********* Common CSS - Start *********/
+.container-fluid{
+    max-width: 1480px;
+}
+.slick-next,
+.slick-prev {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100% !important;
+    background-color: #6184D8 !important;
+}
+
+.slick-next:before {
+    content: "\f054" !important;
+    font-family: FontAwesome !important;
+}
+
+.slick-prev:before {
+    content: "\f053" !important;
+    font-family: FontAwesome !important;
+}
+
+.no_paddingRight {
+    padding-right: 0px;
+}
+
+.title {
+    font-size: 50px;
+    font-family: GiloryBold;
+    color: #08083D;
+}
+
+.whiteColor {
+    color: #fff !important;
+}
+.greenColor{
+    color: #23CE6B !important;
+}
+.commonBtn{
+    background-color: #23CE6B;
+    box-shadow: 0px 8px 8px #23ce6b80;
+    border-radius: 100px;
+    padding: 22px 50px;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.desktopHide{
+    display: none;
+}
+
+/********* Common CSS - End *********/
+/********* Header Section - Start *********/
+#header {
+    background: #08083D 0% 0% no-repeat padding-box;
+    padding: 22px 0px;
+    border-bottom: 1px solid #fff;
+}
+
+#header .navbar-brand {
+    font-family: GiloryBold;
+    color: #fff;
+    font-size: 31px;
+}
+
+#header .navbar-nav li>a {
+    color: #fff;
+    font-family: GiloryLight;
+    font-size: 16px;
+}
+
+#header .navbar-nav li.contactUs {
+    background-color: #23CE6B;
+    border-radius: 5px;
+    padding: 0px 42px;
+}
+
+#header .navbar-nav li.contactUs a {
+    font-family: GiloryBold;
+}
+
+#header .collapse {
+    justify-content: flex-end;
+}
+
+#header .navbar-nav li {
+    margin-left: 36px;
+}
+
+#header .navbar {
+    padding: 0px;
+}
+
+/********* Header Section - End *********/
+
+/********* MainBanner Section - Start *********/
+#mainBanner {
+    background-image: url("../img/mainBannerBg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 111px 0px;
+    background-size: cover;
+}
+
+#mainBanner .bannerLeftSide h3 {
+    font-size: 50px;
+    color: #fff;
+    font-family: GiloryBold;
+    margin-bottom: 15px;
+}
+
+#mainBanner .bannerLeftSide .changeText {
+    padding: 15px 7px;
+    background-color: #6184D8;
+    width: 370px;
+    font-size: 50px;
+    color: #fff;
+    font-family: GiloryBold;
+    transition: all .8s ease-in-out;
+}
+
+#mainBanner .bannerLeftSide p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 33px;
+}
+
+#mainBanner .bannerLeftSide button {
+    margin-top: 70px;
+    transition: all .5 ease;
+}
+#mainBanner .bannerLeftSide button:hover{
+    transform: translateY(-10px);
+}
+
+#mainBanner .bannerLeftSide button i {
+    margin-left: 12px;
+}
+
+/********* MainBanner Section - End *********/
+/********* Dolor Section - Start *********/
+#dolorSection {
+    background-image: url("../img/dolorSectoin.png");
+    background-size: cover;
+    padding: 70px 0px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#dolorSection .title br{
+    display: none;
+}
+#dolorSection .listDiv {
+    width: 100%;
+    max-width: 55%;
+    margin: auto;
+    margin-top: 58px;
+}
+
+#dolorSection .listDiv ul {
+    list-style: none;
+}
+
+#dolorSection .listDiv ul li:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    color: #23CE6B;
+    padding-right: 40px;
+}
+
+#dolorSection .listDiv ul li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #08083D;
+    line-height: 49px;
+}
+
+/********* Dolor Section - End *********/
+/********* Location Section - Start *********/
+#locationSection {
+    background-color: #08083D;
+    padding: 70px 0px;
+}
+
+#locationSection h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: GiloryBold;
+}
+
+#locationSection p {
+    margin-top: 33px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 22.4px;
+}
+
+#locationSection .locationSlider {
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 65px;
+}
+
+#locationSection .locationDiv {
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+#locationSection .locationDiv p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+#locationSection .locationSlider.slick-initialized.slick-slider img {
+    width: 300px;
+    margin: auto;
+
+}
+
+.locationDiv.slick-slide.slick-current.slick-active+.locationDiv.slick-slide.slick-active img {
+    width: 375px !important;
+}
+
+.locationDiv.slick-slide.slick-current.slick-active+.locationDiv.slick-slide.slick-active {
+    padding: 0px !important;
+}
+
+.locationDiv.slick-slide.slick-current.slick-active+.locationDiv.slick-slide.slick-active p {
+    font-size: 24px;
+}
+
+/********* Location Section - End *********/
+/********* Lead Section - Start *********/
+#leadSEO {
+    background-color: #6184D8;
+    padding: 70px 0px;
+    overflow: hidden;
+    position: relative;
+    opacity: 0.9;
+}
+
+#leadSEO .leftLeadBox h1 span {
+    color: #23CE6B;
+}
+
+#leadSEO .leftLeadBox h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: GiloryBold;
+    line-height: 70px;
+}
+
+#leadSEO .leftLeadBox .descriptionText {
+    margin-top: 58px;
+}
+
+#leadSEO .leftLeadBox .descriptionText p {
+    color: #fff;
+    line-height: 33px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+#leadSEO .rightLeadBox {
+    position: absolute;
+    height: 100%;
+    right: -26%;
+}
+
+#leadSEO .rightLeadBox .multiImg {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#leadSEO .rightLeadBox .multiImg .askQuestion {
+    position: relative;
+    left: -60%;
+}
+
+#leadSEO .rightLeadBox .multiImg .leadImg {
+    z-index: 999999;
+    position: absolute;
+    right: 0;
+}
+
+/********* Lead Section - End *********/
+/********* SitAmet Section - Start *********/
+#sitAmet {
+    padding: 70px 0px;
+}
+#sitAmet .title br{
+    display: none;
+}
+
+#sitAmet .sitAmetBox {
+    text-align: center;
+    margin-top: 70px;
+}
+
+#sitAmet .sitAmetBox h4,
+#dolorMobileSection .sitAmetBox h4 {
+    font-size: 27px;
+    color: #08083D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 25px 0px;
+}
+
+#sitAmet .sitAmetBox p {
+    color: #08083D;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#sitAmet .sitAmetBox img {
+    height: 220px;
+    width: 220px;
+}
+
+/********* SitAmet Section - End *********/
+/********* DolorSit Section - Start *********/
+#dolorSit,
+#grantySection {
+    padding: 70px 0px;
+    background: transparent linear-gradient(139deg, #6184D8 0%, #08083D 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#dolorSit .multiSteps {
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+#dolorSit h1 br{
+    display: none;
+}
+
+#dolorSit .multiSteps .commonSteps {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dolorSit .multiSteps .commonSteps h4 {
+    color: #23CE6B;
+    font-size: 27px;
+    font-family: GiloryBold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+#dolorSit .multiSteps .commonSteps h1 {
+    color: #fff;
+    font-family: GiloryBold;
+    font-size: 45px;
+    margin-bottom: 27px;
+}
+
+#dolorSit .multiSteps .commonSteps p {
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#dolorSit .multiSteps .commonSteps .iconDiv {
+    width: 115px;
+    height: 115px;
+    background: transparent linear-gradient(328deg, #4D80FB 0%, #23CE6B 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+#dolorSit .multiSteps .arrowDiv {
+    margin: 55px 0px 35px 0px;
+
+}
+#dolorSit .multiSteps .arrowDiv i{
+    width: 20px;
+    height: 20px;
+    background: #2F2F6A 0% 0% no-repeat padding-box;
+    border-radius: 100%;
+    color: #fff;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#dolorSit .multiSteps .commonSteps .detailsDiv {
+    width: 80%;
+}
+
+#dolorSit .stepDivBelow {
+    height: 250px;
+    position: relative;
+    z-index: 999999;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 783px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#dolorSit .stepDivBelow .secondDiv{
+    filter: blur(1px);
+    height: 250px;
+    border: 2px solid #6184D8;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    right: -7px;
+    width: 100%;
+    max-width: 783px;
+    top: 7px;
+    z-index: -1;
+}
+#dolorSit .stepDivBelow br{
+    display: none;
+}
+#dolorSit .stepDivBelow h1{
+    color: #fff;
+    font-size: 45px;
+    font-family: GiloryBold;
+    margin-bottom: 20px;
+}
+#dolorSit .stepDivBelow p{
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+/********* DolorSit Section - End *********/
+/********* Micdolance Section - Start *********/
+#micdolanceDiv{
+    background-image: url("../img/micdollanceBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0px;
+}
+#micdolanceDiv .leftSideBox{
+    width: 100%;
+    max-width: 50%;
+}
+#micdolanceDiv .leftSideBox h1{
+    line-height: 65px;
+}
+#micdolanceDiv .leftSideBox h1 br{
+    display: none;
+}
+#micdolanceDiv .leftSideBox .descriptionDiv p{
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 35px;
+}
+#micdolanceDiv .leftSideBox button{
+    margin-top: 40px;
+}
+/********* Micdolance Section - End *********/
+/********* SucessStory Section - Start *********/
+#sucessStory{
+    padding: 45px;
+    background-image: url("../img/successStory.png");
+   position: relative;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+#sucessStory .overlay{
+    background-color: #08083D;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    opacity: 0.45;
+}
+#sucessStory p{
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 18px;
+}
+/********* SucessStory Section - End *********/
+/********* SucessStoryUser Section - Start *********/
+
+.greenCard{
+    background-color: #23CE6B;
+}
+.blueCard{
+    background-color: #08083D;
+}
+.lightBlueCard{
+    background-color: #6184D8;
+}
+#sucessStoryUser .succesStoryDiv{
+    display: flex;
+}
+#sucessStoryUser .succesStoryDiv .commonCard{
+    width: 20%;
+    padding: 60px 50px;
+    text-align: center;
+}
+#sucessStoryUser .succesStoryDiv .commonCard .cardTop i{
+    font-size: 50px;
+    color: #fff;
+}
+#sucessStoryUser .succesStoryDiv .commonCard .cardTop p{
+    margin: 45px 0px 20px 0px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+#sucessStoryUser .succesStoryDiv .commonCard .cardBottom{
+    margin-top: 25px;
+}
+#sucessStoryUser .succesStoryDiv .commonCard .cardBottom h4{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+}
+#sucessStoryUser .succesStoryDiv .commonCard .cardBottom p,
+#grantySection .infoDiv p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    color: #fff;
+}
+/********* SucessStoryUser Section - End *********/
+/********* GrantySection Section - Start *********/
+#grantySection img{
+    margin: 30px 0px;
+}
+#grantySection h1 br{
+    display: none;
+}
+#grantySection .infoDiv{
+    margin: 35px auto;
+    width: 100%;
+    max-width: 50%;
+}
+#grantySection .infoDiv p{
+    padding-bottom: 30px;
+}
+#grantySection .infoDiv p:last-child{
+    font-weight: 600;
+}
+/********* GrantySection Section - End *********/
+/********* ConsectetuerSection Section - Start *********/
+
+#consectetuerSection{
+    padding: 70px 0px;
+}
+#consectetuerSection .rightBox p{
+    color: #08083D;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 17px;
+} 
+#consectetuerSection .rightBox h1 br:nth-child(2){
+    display: none;
+}  
+#consectetuerSection .rightBox button{
+    margin-top: 50px;
+}
+/********* ConsectetuerSection Section - End *********/
+/********* Footer Section - Start *********/
+#footer{
+    background-image: url("../img/footerBg.png");
+    background-size: cover;
+    padding: 40px 0px;
+}
+#footer .leftBox,
+#footer .rightBox{
+    text-align: right;
+}
+#footer .leftBox p,
+#footer .rightBox p{
+    font-family: GiloryBold;
+    font-size: 16px;
+    color: #fff;
+}
+#footer .leftBox ul{
+    margin-top: 20px;
+}
+#footer .leftBox ul li a,
+#footer .copyRight ul li a{
+    color: #fff;
+    font-family: GiloryLight;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#footer .copyRight .desktopHide{
+    display: none !important;
+}
+#footer .leftBox ul li i{
+    width: 30px;
+    color: #fff;
+    text-align: center;
+}
+#footer .leftBox {
+    padding-right: 80px;
+}
+#footer .rightBox ul,
+#footer .copyRight ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#footer .rightBox ul li{
+    padding: 0px 5px;
+}
+#footer .copyRight{
+    margin-top: 43px;
+}
+#footer .copyRight ul li{
+    padding-left: 75px;
+}
+/********* Footer Section - End *********/
+
+/********* Mobile View - Start **********/
+#dolorMobileSection{
+    padding: 33px 0px;
+}
+#dolorMobileSection .sitAmetBox {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#dolorMobileSection .sitAmetBox p {
+    color: #08083D;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 11px;
+}
+#dolorMobileSection .sitAmetBox p span{
+    font-weight: 700;
+}
+#dolorMobileSection .sitAmetBox img{
+    height: 68px;
+}
+#dolorMobileSection h5{
+    font-size: 18px;
+    font-family: GiloryBold;
+    margin-bottom: 20px;
+}
+/********* Mobile View - End **********/
